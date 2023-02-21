@@ -21,8 +21,6 @@ class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        animalLabel.text = "\(chosenAnimal.rawValue)"
-//        definitionLabel.text = chosenAnimal.definition
         navigationController?.visibleViewController?.navigationItem.hidesBackButton = true
     }
     
@@ -34,16 +32,17 @@ class ResultViewController: UIViewController {
         print("\(type(of: self)) has been deallocated")
     }
     
-//    private func countingAnimal(from: [Answer]) -> Animal {
-//        var animalBook = [Animal: String]()
+//    private func chosenAnimal(from: [Answer]) -> Animal {
 //        for answer in answers {
-//            animalBook.updateValue(answer.animal.definition, forKey: answer.animal)
-//            for key in animalBook.keys {
+//            switch self {
 //
+//            default:
+//                <#code#>
 //            }
-//            }
-//        return animalBook[key]
+//            animalLabel.text = "Вы - \(chosenAnimal.rawValue)"
+//            definitionLabel.text = chosenAnimal.definition
 //        }
-
+//    }
+        
 }
 
